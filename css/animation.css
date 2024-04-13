@@ -1,0 +1,14 @@
+.wind {
+  animation: shake;
+  animation-duration: 1s;
+  animation-timing-function: steps(5, end);
+  animation-delay: 0s;
+  animation-iteration-count: 1; 
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+@keyframes shake {
+  from { transform: translateX(-5px); }
+  to   { transform: translateX(5px); }
+}

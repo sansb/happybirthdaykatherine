@@ -1,0 +1,18 @@
+#message-container {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 50px;
+}
+
+#message {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1, h2, p {
+  font-family: 'ABeeZee', sans-serif;
+}
